@@ -1,0 +1,21 @@
+### Spring properties
+# Service registers under this name
+spring:
+  application:
+    name: cart
+
+
+# HTTP Server (Tomcat) Port
+server:
+  port: 8081
+  contextPath: /api
+
+
+# Log configuration
+logging.level.org.springframework.web: DEBUG
+
+spring.jackson.serialization.indent_output: true
+
+spring.output.ansi.enabled: ALWAYS
+
+
